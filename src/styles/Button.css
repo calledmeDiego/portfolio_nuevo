@@ -1,0 +1,19 @@
+.btn {
+    @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-semibold text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] max-md:hidden font-text uppercase 
+}
+
+.btn .material-icons{
+    @apply text-[18px]
+}
+
+.btn:has( .material-icons){
+    @apply pr-3;
+}
+
+.btn-primary {
+    @apply h-11 bg-primary text-zinc-950 hover:bg-primary/80 active:bg-primary
+}
+
+.btn-outline {
+    @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800 text-primary
+}

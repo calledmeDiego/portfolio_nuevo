@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*BASE
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-zinc-900 text-zinc-50 h-[200vh]
+}
+
+@font-face {
+    font-family: 'Headline';
+    src: url(/public/fonts/Dirty\ Headline.ttf);
+}
+
+.headline-2 {
+    @apply text-3xl lg:text-4xl lg:leading-tight font-semibold font-broken text-primary
+}
+
+.section {
+    @apply pt-20 lg:pt-32
+}
+
+.reveal-up {
+    @apply translate-y-20 opacity-0
+}
