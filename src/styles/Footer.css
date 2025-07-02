@@ -1,0 +1,6 @@
+.headline-footer {
+    @apply max-w-max;
+    background: -webkit-linear-gradient(0deg, #F5DB01, #C2B227, #333229);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

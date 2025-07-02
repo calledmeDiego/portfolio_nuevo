@@ -1,24 +1,21 @@
 import { ButtonPrimary } from "./Button";
+import "../styles/Footer.css";
 
 const sitemap = [
   {
-    label: 'Home',
+    label: 'Inicio',
     href: '#home'
   },
   {
-    label: 'About',
+    label: 'Sobre Mí',
     href: '#about'
   },
   {
-    label: 'Work',
+    label: 'Portafolio',
     href: '#work'
   },
   {
-    label: 'Reviews',
-    href: '#reviews'
-  },
-  {
-    label: 'Contact me',
+    label: 'Contacto',
     href: '#contact'
   }
 ];
@@ -26,24 +23,24 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/calledmeDiego'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: 'https://www.linkedin.com/in/diego-gabriel-6a5109276/'
   },
-  {
-    label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
-  },
-  {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
-  }
+  // {
+  //   label: 'Twitter X',
+  //   href: ''
+  // },
+  // {
+  //   label: 'Instagram',
+  //   href: ''
+  // },
+  // {
+  //   label: 'CodePen',
+  //   href: ''
+  // }
 ];
 
 export const Footer = () => {
@@ -53,8 +50,8 @@ export const Footer = () => {
 
             <div className="lg:grid lg:grid-cols-2">
                 <div className="mb-10">
-                    <h2 className="headline-1 mb-8 lg:max-w-[12ch] font-broken reveal-up">
-                        Let&apos;s work together today!
+                    <h2 className="headline-1 mb-8 lg:max-w-[12ch] font-broken headline-footer reveal-up">
+                        ¡Empecemos a trabajar!
                     </h2>
 
                     <ButtonPrimary label="Start Project"
@@ -66,7 +63,7 @@ export const Footer = () => {
 
                   <div>
                     <p className="mb-2 reveal-up">
-                      Sitemap
+                      Sitio
                     </p>
 
                     <ul className="">
@@ -86,7 +83,7 @@ export const Footer = () => {
 
                   <div >
                     <p className="mb-2 reveal-up">
-                      Socials
+                      Redes Sociales
                     </p>
 
                     <ul className="">
@@ -94,6 +91,7 @@ export const Footer = () => {
                         socials.map(({label, href},key) => (
                           <li key={key}>
                             <a href={href}
+                            
                             className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up">
                               {label}
                             </a>
@@ -108,12 +106,15 @@ export const Footer = () => {
             </div>
 
             <div className="flex items-center justify-between pt-10 mb-8">
-              <a href="" className="">
+              <h1 className="text-2xl">
+                DL
+              </h1>
+              {/* <a href="" className="">
                 <img src="ssss" alt="Logo" 
                 width={40} height={40} />
-              </a>
+              </a> */}
 
-              <p className="text-zinc-500 text-sm reveal-up">
+              <p className="text-zinc-500 text-sm ">
                 &copy; 2025 <span className="text-zinc-200">Diego Gabriel</span>
               </p>
             </div>

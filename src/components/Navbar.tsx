@@ -58,28 +58,28 @@ export const Navbar = ({ navOpen }: NavbarProps) => {
 
   const navItems: NavItem[] = [
     {
-      label: "Home",
+      label: "Inicio",
       link: "#home",
       className: "nav-link active",
       ref: lastActiveLink,
     },
     {
-      label: "About",
+      label: "Sobre Mi",
       link: "#about",
       className: "nav-link",
     },
     {
-      label: "Work",
+      label: "Portafolio",
       link: "#work",
       className: "nav-link",
     },
+    // {
+    //   label: "Reviews",
+    //   link: "#reviews",
+    //   className: "nav-link",
+    // },
     {
-      label: "Reviews",
-      link: "#reviews",
-      className: "nav-link",
-    },
-    {
-      label: "Contact",
+      label: "Contacto",
       link: "#contact",
       className: "nav-link",
       id:'contact1'
