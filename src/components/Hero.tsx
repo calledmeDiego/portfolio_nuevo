@@ -10,14 +10,14 @@ export const Hero = () => {
     >
       <img
         className="grunge-bg absolute inset-0 w-full h-full object-cover pointer-events-none "
-        src="/public/img/yellow_grunge.jpeg"
+        src="https://i.ibb.co/Fbcxtxrq/yellow-grunge.jpg"
         style={{ zIndex: -1 }}
       />
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div className="hidden lg:block">
           <figure className="relative  w-full max-w-[480px] ml-auto rounded-[60px] overflow-hidden p-6 backdrop-blur-md bg-zinc-800/50 ring-2 ring-inset ring-zinc-50/10 shadow-xl">
             <img
-              src="/public/svg/undraw_hello_.svg"
+              src="https://calledmeDiego.github.io/portfolio_nuevo/svg/undraw_hello_.svg"
               width={656}
               height={800}
               alt="Diego Gabriel"

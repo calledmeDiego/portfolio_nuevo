@@ -14,7 +14,8 @@ body {
 
 @font-face {
     font-family: 'Headline';
-    src: url(/public/fonts/Dirty\ Headline.ttf);
+    src: url(https://calledmeDiego.github.io/portfolio_nuevo/fonts/Dirty\ Headline.ttf);
+    /* src: url(/public/fonts/Dirty\ Headline.ttf); */
 }
 
 .headline-2 {

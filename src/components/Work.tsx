@@ -2,19 +2,19 @@ import { ProjectCard } from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/public/img/SKINET.jpg",
+    imgSrc: "https://i.ibb.co/n8C8N3W1/SKINET.jpg",
     title: "Full stack eCommerce web",
     tags: ["API", "MVC", "Payment Platform"],
     projectLink: "https://musify-5al0.onrender.com/",
   },
   {
-    imgSrc: "/public/img/blog.jpg",
+    imgSrc: "https://i.ibb.co/jkL9ZMM4/blog.jpg",
     title: "Full stack blog site",
     tags: ["API", "SPA", "MVC"],
     projectLink: "https://pixstock-official.vercel.app/",
   },
   {
-    imgSrc: "/public/img/ARCHIVOREGIONAL.jpg",
+    imgSrc: "https://i.ibb.co/fzhD7rt9/ARCHIVOREGIONAL.jpg",
     title: "Sistema de gestión de información",
     tags: ["MVC", "Mini-ERP"],
     projectLink: "",
