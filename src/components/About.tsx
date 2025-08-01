@@ -1,15 +1,3 @@
-import "../styles/About.css";
-
-// const aboutItems = [
-//   {
-//     label: "Proyectos",
-//     number: 5,
-//   },
-//   {
-//     label: "Años de Experiencia",
-//     number: 1,
-//   },
-// ];
 
 export const About = () => {
   return (
@@ -25,11 +13,7 @@ export const About = () => {
             usuario. Me gusta innovar, encontrar respuestas y soluciones útiles
             que dejan huella en el mundo digital. Si tienes una idea, puedo
             ayudarte a convertirla en código.
-            {/* Welcome! I&apos;m Henry, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance. */}
+            
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7 ">

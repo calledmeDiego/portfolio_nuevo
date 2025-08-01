@@ -1,4 +1,4 @@
-import '../styles/Skill.css'
+
 import { SkillCard } from './SkillCard';
 
 interface SkillItemProps {

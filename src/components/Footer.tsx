@@ -28,19 +28,7 @@ const socials = [
   {
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/diego-gabriel-6a5109276/'
-  },
-  // {
-  //   label: 'Twitter X',
-  //   href: ''
-  // },
-  // {
-  //   label: 'Instagram',
-  //   href: ''
-  // },
-  // {
-  //   label: 'CodePen',
-  //   href: ''
-  // }
+  }  
 ];
 
 export const Footer = () => {
@@ -109,10 +97,7 @@ export const Footer = () => {
               <h1 className="text-2xl">
                 DL
               </h1>
-              {/* <a href="" className="">
-                <img src="ssss" alt="Logo" 
-                width={40} height={40} />
-              </a> */}
+              
 
               <p className="text-zinc-500 text-sm ">
                 &copy; 2025 <span className="text-zinc-200">Diego Gabriel</span>

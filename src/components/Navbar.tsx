@@ -73,11 +73,6 @@ export const Navbar = ({ navOpen }: NavbarProps) => {
       link: "#work",
       className: "nav-link",
     },
-    // {
-    //   label: "Reviews",
-    //   link: "#reviews",
-    //   className: "nav-link",
-    // },
     {
       label: "Contacto",
       link: "#contact",
